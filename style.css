@@ -1,38 +1,39 @@
 
 body {
     background-color: #202020;
-    margin: 0px 20px 50px 20px;
+    margin: 0px 30px 200px 30px;
 }
 
 .container {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 15px;
+    gap: 20px;
 }
 
 .box {
     background-color: #3A3939;
-    border-radius: 10px;
-    margin-top: 120px;
-    padding: 5px;
+    border-radius: 15px;
+    margin-top: 180px;
+    padding: 15px;
     display: flex;
     flex-direction: column;
     align-items: center;
     flex-grow: 1;
-    max-width: 300px;
-    height: 170px;
+    max-width: 390px;
+    height: 245px;
 }
 
 .title {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    margin: 20px;
+    margin: 30px 0px;
+    font-size: 50px;
 }
 
 .name {
     color: white;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 800;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
@@ -40,25 +41,25 @@ body {
 
 .description {
     color: rgb(184, 184, 184);
-    font-size: 10px;
+    font-size: 15px;
     font-weight: 300;
     font-family: "Roboto", Arial, Helvetica, sans-serif;
     margin: 0;
 }
 
 .image {
-    border-radius: 50px 30px 100px 50px;
-    width: 150px;
-    height: 150px;
+    border-radius: 100px 60px 200px 100px;
+    width: 220px;
+    height: 220px;
     object-fit: cover;
     object-position: top;
-    margin-top: -92px;
+    margin-top: -140px;
     transition: transform 0.3s, box-shadow 0.3s;
 }
 
 img:hover {
     transform: scale(1.1);
-    box-shadow: 0 0 20px rgb(0, 0, 0);
+    box-shadow: 0 0 50px rgb(0, 0, 0);
 }
 
 input[type="checkbox"] {
@@ -71,18 +72,20 @@ input[type="checkbox"]:checked + .heart {
 
 .heart {
     color: gray;
-    font-size: 20px;
+    font-size: 29px;
     background-color: rgb(77, 77, 77);
     border-radius: 50%;
-    padding: 4px 3px 2px 3px;
+    padding: 8px 6px 4px 6px;
     cursor: pointer;
+    margin-right: 3px;
 }
 
 .download-button {
-    padding: 6px 40px;
+    padding: 10px 70px;
     vertical-align: top;
+    font-size: 19px;
     border: 0;
-    border-radius: 20px;
+    border-radius: 25px;
     color: white;
     font-weight: bold;
     background: linear-gradient(45deg, #ff259d, #a51eff);
@@ -91,11 +94,11 @@ input[type="checkbox"]:checked + .heart {
 }
 
 .download-button:hover {
-    box-shadow: 0 0 20px rgba(234, 0, 255, 0.7);
+    box-shadow: 0 0 40px rgba(234, 0, 255, 0.7);
 }
 
 .info-div {
-    margin: 15px 0px;
+    margin: 25px 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
